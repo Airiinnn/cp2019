@@ -1,3 +1,7 @@
 up = input("Enter an uppercase letter: ")
 
-print(up.lower())
+code = ord(up)
+code2 = code + 32
+low = chr(code2)
+
+print(low)
