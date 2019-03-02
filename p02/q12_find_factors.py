@@ -1,5 +1,5 @@
 ognum = int(input())
-num
+num = ognum
 list = []
 i = 2
 
