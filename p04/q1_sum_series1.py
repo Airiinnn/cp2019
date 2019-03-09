@@ -1,0 +1,8 @@
+def sum_series1(i):
+  if i == 1:
+    return 1
+  else:
+    return sum_series1(i-1) + 1 / i
+    
+n = int(input())    
+print(sum_series1(n))
